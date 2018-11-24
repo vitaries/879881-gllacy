@@ -14,24 +14,55 @@
         <img src="img/logo.svg" width="154" height="64" alt="Логотип">
       </a>
       <ul class="site-navigation">
-        <li> <a href="#">Каталог</a></li>
+        <li> <a href="#">Каталог</a>
+        <select name="catalog" multiple>
+          <option value="new">Новинки</option>
+          <option value="creams">Сливочное</option>
+          <option value="sherbets" selected>Щербеты</option>
+          <option value="fruit_ice">Фруктовый лед</option>
+          <option value="melorin">Мелорин</option>
+        </select>
+      </li>
         <li> <a href="#">Доставка</a></li>
         <li> <a href="#">О компании</a></li>
       </ul>
     </nav>
     <ul class="site-search">
 
-      <li>Поиск</li>
+      <li>Поиск
+      <input type="text" name="search" value="Что ищем?">
+    </li>
     </ul>
     <ul class="login-link">
 
-      <li>Вход</li>
+      <li>Вход
+<form action="#" method="post">
+      <input type="text" name="login" id="login-field" value="Электронная почта">
+      <br>
+      <br>
+      <input type="password" name="password" id="password-field" value="Пароль">
+      <br>
+      <input type="submit" value="Войти">
+      <br>
+      <a href="#">Забыли пароль?</a>
+      <br>
+      <a href="#">Новая регистрация</a>
+      </li>
     </ul>
     <ul class="basket">
 
       <li>Корзина</li>
     </ul>
 
+    <h1 class="visyally hidden">Мы обязательно вас ответим</h1>
+    <form action="#" method="post">
+      <input type="text" name="login" id="login-field" value="Как вас зовут?">
+      <br>
+      <br>
+      <input type="text" name="login" id="login-field" value="Ваша почта для ответа">
+      <br>
+      <br>
+      <textarea name="comment" id="comment-field" rows="10">Напишите что-нибудь...</textarea>
   </header>
   <main class="container">
     <h1 class="visyally-hidden">Магазин мороженого Gllacy</h1>
