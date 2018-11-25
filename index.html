@@ -15,77 +15,73 @@
       </a>
       <ul class="site-navigation">
         <li> <a href="#">Каталог</a>
-        <select name="catalog" multiple>
-          <option value="new">Новинки</option>
-          <option value="creams">Сливочное</option>
-          <option value="sherbets" selected>Щербеты</option>
-          <option value="fruit_ice">Фруктовый лед</option>
-          <option value="melorin">Мелорин</option>
-        </select>
-      </li>
+          <ul>
+            <li><a href="#">Новинки</a></li>
+            <li><a href="#">Сливочное</a></li>
+            <li><a href="#">Щербеты</a></li>
+            <li><a href="#">Фруктовый лед</a></li>
+            <li><a href="#">Мелорин</a></li>
+          </ul>
+        </li>
         <li> <a href="#">Доставка</a></li>
         <li> <a href="#">О компании</a></li>
       </ul>
     </nav>
     <ul class="site-search">
-
       <li>Поиск
-      <input type="text" name="search" placeholder="Что ищем?">
-    </li>
+        <form action="#" method="post">
+          <input type="text" name="search" placeholder="Что ищем?">
+        </form>
+      </li>
     </ul>
     <ul class="login-link">
       <li>Вход
-<form action="#" method="post">
-      <input type="text" name="login" id="login-field" placeholder="Электронная почта">
-      <br>
-      <br>
-      <input type="password" name="password" id="password-field" placeholder="Пароль">
-      <br>
-      <input type="submit" value="Войти">
-      <br>
-      <a href="#">Забыли пароль?</a>
-      <br>
-      <a href="#">Новая регистрация</a>
+        <form action="#" method="post">
+          <p>
+            <input type="text" name="login" id="login-field" placeholder="Электронная почта">
+          </p>
+          <p>
+            <input type="password" name="password" id="password-field" placeholder="Пароль">
+          </p>
+        </form>
+        <button type="submit" class="button">Войти
+        </button>
+        <button type="button" class="model-close">Закрыть
+        </button>
+        <a href="#">Забыли пароль?</a>
+        <a href="#">Новая регистрация</a>
       </li>
     </ul>
     <ul class="basket">
-
-      <li>Корзина</li>
+      <li><a href="#">Корзина</a></li>
     </ul>
-
     <h1 class="visyally hidden">Мы обязательно вас ответим</h1>
     <form action="#" method="post">
-      <input type="text" name="login" id="login-field" placeholder="Как вас зовут?">
-      <br>
-      <br>
-      <input type="text" name="login" id="login-field" placeholder="Ваша почта для ответа">
-      <br>
-      <br>
-      <textarea name="comment" id="comment-field" rows="10">Напишите что-нибудь...</textarea>
+      <p>
+        <input type="text" name="login" id="login-field" placeholder="Как вас зовут?">
+      </p>
+      <p>
+        <input type="text" name="login" id="login-field" placeholder="Ваша почта для ответа">
+      </p>
+    </form>
+    <textarea name="comment" id="comment-field" rows="10">Напишите что-нибудь...</textarea>
   </header>
   <main class="container">
     <h1 class="visyally-hidden">Магазин мороженого Gllacy</h1>
-
     <section class="features">
       <h2 class="visyally-hidden">Преимущества</h2>
-
       <p>Магазин Глэйси - это онлайн- и офлайн-магазин по продаже мороженного собственного производства на развес</p>
       <ul class="features-list">
         <li class="features-item">
-
           <p>Все наше мороженное изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
         </li>
         <li class="features-item">
-
-
           <p>Для проготовления мороженного используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
         </li>
         <li class="features-item">
-
           <p>Закупка инргредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
         </li>
         <li class="features-item">
-
           <p>Доставка нашего мороженного до заказчиком осуществляется в специальном термопакете, который не дает мороженному растаять в пути и позволяет сохранить превосходный вкус.</p>
         </li>
       </ul>
@@ -97,7 +93,6 @@
           <p><a href="#">10 способов сервировки фруктовых щербетов к столу</a></p>
         </li>
       </ul>
-
     </section>
     <section class="subscribe">
       <ul class="subscribe-blank">
@@ -111,7 +106,6 @@
   </main>
   <footer class="main-footer">
     <div class="footer-social">
-
       <a class="social-button" href="#">Твиттер</a>
       <a class="social-button" href="#">Инстаграм</a>
       <a class="social-button" href="#">Фейсбук</a>
@@ -124,19 +118,14 @@
         <li><a href="#">Наши документы</a></li>
         <li><a href="#">Экологические стандарты</a></li>
       </ul>
-
     </div>
   </footer>
-
   <p class="footer-copyright">
-
     <a href="#">
       <img src="img/logo-htmlacademy.svg" width="108" height="39" alt="Лого академии">
     </a>
     Сделано в HTML Academy (c) 2017</p>
-
   </footer>
-
 </body>
 
 </html>
