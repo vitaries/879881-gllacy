@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  background: #849d8f;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation a {
+  color: #ffffff;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 18px;
+  color: #323232;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: #fbded8;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: left;
+}
+
+.aboutus {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.blog-news {
+  font-weight: 500;
+}
+
+.news-item {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #636059;
+  text-decoration: underline;
+}
+
+.footer-info {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
