@@ -10,9 +10,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-.site-navigation a {
   color: #ffffff;
 }
 
@@ -25,6 +22,10 @@ a {
 .site-navigation a:hover,
 .site-navigation a:focus {
   background-color: #fbded8;
+}
+
+.features {
+
 }
 
 .features-list {
@@ -58,4 +59,39 @@ a {
   line-height: 18px;
   font-weight: 400;
   color: #ffffff;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  text-decoration: underline;
+}
+
+.main-title {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+}
+
+.worktime {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.phone_number {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.catalog-item-price {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
 }
