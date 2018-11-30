@@ -8,6 +8,10 @@ body {
   background: #849d8f;
 }
 
+.visyally-hidden {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -25,11 +29,7 @@ a {
 }
 
 .features {
-
-}
-
-.features-list {
-  list-style: none;
+ background-image: url("../img/waffle.jpg");
 }
 
 .feature-item {
@@ -44,14 +44,17 @@ a {
 
 .blog-news {
   font-weight: 500;
+  background-image: url("../img/strawberry.jpg");
+  background-repeat: no-repeat;
+  color: #323232;
 }
 
-.news-item {
+.news-item a {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
-  color: #636059;
   text-decoration: underline;
+  color: #323232;
 }
 
 .footer-info {
@@ -88,6 +91,11 @@ a {
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
+}
+
+.catalog-item-title {
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 .catalog-item-price {
