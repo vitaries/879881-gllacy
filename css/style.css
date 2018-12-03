@@ -120,6 +120,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .left-side {
@@ -189,6 +190,7 @@ display: flex;
 .footer-social {
   display: flex;
   justify-content: space-between;
+
 }
 
 .footer-info {
