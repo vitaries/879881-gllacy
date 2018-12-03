@@ -29,7 +29,10 @@ a {
 }
 
 .features {
- background-image: url("../img/waffle.jpg");
+  background-image: url("../img/waffle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .feature-item {
@@ -47,6 +50,7 @@ a {
   background-image: url("../img/strawberry.jpg");
   background-repeat: no-repeat;
   color: #323232;
+
 }
 
 .news-item a {
@@ -102,4 +106,93 @@ a {
   font-size: 45px;
   line-height: 45px;
   font-weight: 700;
+}
+
+.features {
+  color: #323232;
+}
+
+
+
+
+/*Сетки*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-navigation {
+display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.site-navigation li {
+  margin-left: 10px;
+}
+
+.main-menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.main-menu li {
+  margin-left: 10px;
+}
+
+.contacts {
+  text-align: right;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features-list li {
+  width: 50%;
+  display: block;
+}
+
+.news_subscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-news {
+  display: block;
+  width: 50%
+}
+
+.subscribe {
+  display: block;
+  width: 59%;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+
 }
