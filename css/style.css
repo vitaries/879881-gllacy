@@ -32,7 +32,6 @@ a {
   background-image: url("../img/waffle.jpg");
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .feature-item {
@@ -50,10 +49,9 @@ a {
   background-image: url("../img/strawberry.jpg");
   background-repeat: no-repeat;
   color: #323232;
-
 }
 
-.news-item a {
+.new-item a {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
@@ -112,15 +110,13 @@ a {
   color: #323232;
 }
 
-
-
-
 /*Сетки*/
-
 header {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .left-side {
@@ -129,7 +125,7 @@ header {
 }
 
 .site-navigation {
-display: flex;
+  display: flex;
   list-style-type: none;
   justify-content: space-between;
 }
@@ -180,6 +176,11 @@ display: flex;
 .subscribe {
   display: block;
   width: 59%;
+  margin-right: 25px;
+  width: 560px;
+  height: 220px;
+  background: white;
+  color: #5a5a5a;
 }
 
 .main-footer {
@@ -190,7 +191,6 @@ display: flex;
 .footer-social {
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer-info {
@@ -201,7 +201,6 @@ display: flex;
 .footer-copyright {
   display: flex;
   justify-content: space-between;
-
 }
 
 .main-header-logo {
@@ -213,9 +212,22 @@ display: flex;
   height: 220px;
 }
 
-.subscribe {
-  width: 560px;
-  height: 220px;
-  background: white;
-  color: #5a5a5a;
+.blog-news {
+  margin-left: 25px;
+}
+
+.breadcrumbs {
+  display: flex;
+  list-style-type: none;
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.catalog-item {
+  display: block;
 }
