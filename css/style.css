@@ -231,4 +231,5 @@ header {
 .catalog-item {
   display: block;
   width: 267px;
+  margin: 27px;
 }
