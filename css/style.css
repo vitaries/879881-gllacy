@@ -273,6 +273,13 @@ a {
   background-color: red;
 }
 
+.contacts p {
+  display: block;
+  margin: 0;
+  padding-bottom: 5px;
+  border: none;
+}
+
 /*ПОДМЕНЮ*/
 
 .sub-navigation {
@@ -352,4 +359,30 @@ a {
   top: -12px;
   background-image: url("../img/thermometer.svg");
   background-repeat: no-repeat;
+}
+
+.social-button {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  width: 43px;
+  height: 43px;
+}
+
+/*FOOTER*/
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-height: 40px;
+}
+
+.footer-info a {
+  display: block;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  max-width: 170px;
 }
