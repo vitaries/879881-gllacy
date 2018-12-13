@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 4px;
   margin: 0;
   align-items: flex-start;
 
@@ -54,6 +54,11 @@ a {
   color: #ffffff;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 .main-navigation {
   display: flex;
   font-size: 16px;
@@ -65,13 +70,15 @@ a {
 .site-navigation a:focus {
   background-color: white;
   color: #323232;
+  font-weight: bold;
 }
 
 .site-navigation {
   display: flex;
+  justify-content: space-between;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding-top: 12px;
+  padding-left: 10px;
 }
 
 .main-menu {
@@ -84,7 +91,7 @@ a {
 .site-navigation a,
 .main-menu a {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 14px;
   border-radius: 30px;
 }
 
@@ -94,6 +101,10 @@ a {
   background-position: center;
   color: #323232;
   width: 1145px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-size: cover;
 }
 
 .features-list {
@@ -159,7 +170,7 @@ a {
   font-weight: 700;
 }
 
-.phone_number {
+.phone-number {
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
@@ -184,22 +195,21 @@ a {
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .blog-news {
   display: block;
   width: 50%;
   height: 220px;
-  max-width: 560px;
+  max-width: 540px;
   border-radius: 10px;
   font-weight: 500;
   background-image: url("../img/strawberry.jpg");
   background-repeat: no-repeat;
   color: #323232;
-  margin: 0;
-
   padding-left: 20px;
+  margin: 0;
 }
 
 .blog-news p {
@@ -270,25 +280,47 @@ a {
   width: 130px;
   padding: 10px 10px;
   border-radius: 20px;
-  background-color: red;
+  background: linear-gradient(to top, #ec6e5d 0%, #f58669 100%);
+}
+
+.button:active {
+  background: blue;
 }
 
 .contacts p {
   display: block;
   margin: 0;
-  padding-bottom: 5px;
+  padding: 0;
   border: none;
 }
 
-/*ПОДМЕНЮ*/
+/**********--ПОДМЕНЮ--************/
 
 .sub-navigation {
   display: none;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-top: 5px;
   position: absolute;
   width: 160px;
+  background: white;
+  border-radius: 5px;
+}
+
+.sub-navigation a {
+  color: black;
+  border-radius: 0;
+  font-weight: 400;
+}
+
+.sub-navigation a:hover,
+.sub-navigation a:focus {
+  background-color: #fbded8;
+  font-weight: 400;
+}
+
+.sub-navigation a .new-new {
+  border-bottom: 1px;
 }
 
 .catalog:hover .sub-navigation {
@@ -382,7 +414,20 @@ a {
 .footer-info a {
   display: block;
   width: 50%;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  max-width: 170px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 12px;
+  line-height: 18px;
+  width: 195px;
+  margin: 0;
+}
+
+.footer-copyright p {
+  display: block;
 }
