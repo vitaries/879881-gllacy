@@ -431,3 +431,77 @@ ul {
 .footer-copyright p {
   display: block;
 }
+
+/**********ОБРАТНАЯ СВЯЗЬ*********/
+
+.modal {
+  display: none;
+  position: fixed;
+  color: #323232;
+
+  background-color: #f8f7f4;
+  background-position: 0 0;
+  background-repeat: repeat;
+  border-radius: 10px;
+
+  padding: 0;
+  margin: 0;
+}
+
+.modal-feedback {
+  width: 480px;
+  height: 440px;
+  padding-left: 25px;
+  padding-top: 25px;
+
+  left: 50%;
+  top: 105px;;
+  margin-left: -220px;
+}
+
+#login-field {
+  width: 265px;
+  height: 44px;
+  text-align: center;
+}
+
+#email-field {
+  width: 265px;
+  height: 44px;
+  text-align: center;
+}
+
+#comment-field {
+  width: 420px;
+  height: 155px;
+}
+
+.modal-close {
+  position: absolute;
+
+  left: 475px;
+  top: 15px;
+
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+
+  font-size: 0;
+
+  background-image:  url("../img/x-big.png");
+  background-color: #f8f7f4;
+  border: none;
+  background-repeat: no-repeat;
+}
+
+.modal h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.modal-feedback .button {
+  position: absolute;
+  left: 355px;
+  top: 375px;
+}
