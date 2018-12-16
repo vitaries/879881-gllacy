@@ -25,6 +25,11 @@ img {
   margin: 0;
 }
 
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1146px;
   margin: 0 auto;
@@ -101,7 +106,7 @@ ul {
   background-position: center;
   color: #323232;
   width: 1145px;
-  margin: 0;
+  margin-top: 1155px;
   box-sizing: border-box;
   border-radius: 10px;
   background-size: cover;
@@ -333,55 +338,16 @@ ul {
 
 /*ПСЕВДОЭЛЕМЕНТЫ*/
 
-.features-list .icecream {
-  position: relative;
-}
-
-.features-list .icecream::after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: -60px;
-  top: -12px;
-  background-image: url("../img/ice-cream.svg");
-  background-repeat: no-repeat;
-}
-
-.features-list .eco {
-  position: relative;
-}
-
-.features-list .eco::after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: -60px;
-  top: -12px;
-  background-image: url("../img/eco.svg");
-  background-repeat: no-repeat;
-}
-
-.features-list .cow {
-  position: relative;
-}
-
-.features-list .cow::after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: -60px;
-  top: -12px;
-  background-image: url("../img/cow.svg");
-  background-repeat: no-repeat;
-}
-
+.features-list .icecream,
+.features-list .eco,
+.features-list .cow,
 .features-list .thermometer {
   position: relative;
 }
 
+.features-list .icecream::after,
+.features-list .eco::after,
+.features-list .cow::after,
 .features-list .thermometer::after {
   content: "";
   position: absolute;
@@ -389,8 +355,23 @@ ul {
   height: 50px;
   left: -60px;
   top: -12px;
-  background-image: url("../img/thermometer.svg");
   background-repeat: no-repeat;
+}
+
+.features-list .icecream::after {
+  background-image: url("../img/ice-cream.svg");
+}
+
+.features-list .eco::after {
+  background-image: url("../img/eco.svg");
+}
+
+.features-list .cow::after {
+  background-image: url("../img/cow.svg");
+}
+
+.features-list .thermometer::after {
+  background-image: url("../img/thermometer.svg");
 }
 
 .social-button {
@@ -435,7 +416,7 @@ ul {
 /**********ОБРАТНАЯ СВЯЗЬ*********/
 
 .modal {
-  display: none;
+  display:;
   position: fixed;
   color: #323232;
 
@@ -449,38 +430,36 @@ ul {
 }
 
 .modal-feedback {
-  width: 480px;
-  height: 440px;
+  width: 452px;
+  height: 418px;
   padding-left: 25px;
   padding-top: 25px;
 
   left: 50%;
   top: 105px;;
-  margin-left: -220px;
+  margin-left: -148px;
 }
 
-#login-field {
-  width: 265px;
-  height: 44px;
-  text-align: center;
-}
-
+#login-field,
 #email-field {
   width: 265px;
   height: 44px;
-  text-align: center;
+  box-sizing: border-box;
+  padding: 15px 15px;
 }
 
 #comment-field {
   width: 420px;
   height: 155px;
+  box-sizing: border-box;
+  padding: 15px 15px;
 }
 
 .modal-close {
   position: absolute;
 
-  left: 475px;
-  top: 15px;
+  left: 443px;
+  top: 16px;
 
   width: 20px;
   height: 20px;
@@ -502,6 +481,6 @@ ul {
 
 .modal-feedback .button {
   position: absolute;
-  left: 355px;
+  left: 323px;
   top: 375px;
 }
